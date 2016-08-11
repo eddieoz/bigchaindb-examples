@@ -63,7 +63,8 @@ Make sure you have all the :ref:`dependencies`.
     $ bigchaindb -c .bigchaindb_examples init
     
     # Load initial data
-    $ python3 init_db.py
+    $ python3 init_accounts.py
+    $ python3 init_assets.py
     
     # Install client dependencies
     $ cd client && npm install && cd -
