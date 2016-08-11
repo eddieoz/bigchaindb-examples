@@ -52,7 +52,7 @@ Make sure you have all the :ref:`dependencies`.
     $ source venv/bin/activate
     
     # Install server
-    $ pip install -e .[dev]
+    $ pip3 install -e .[dev]
     
     # Make sure RethinkDB is running!
     # Configure BigchainDB with a different BIGCHAINDB_DATABASE_NAME
